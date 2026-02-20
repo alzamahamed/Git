@@ -1,5 +1,5 @@
-import time
+fruit = ("apple", "banana", "cherry")
+print(fruit)
 
-for i in range(1, 101):
-    print(f"\rLoading {i*1}%", end="")
-    time.sleep(1)
+fruit += ("orange",)
+print(fruit)
